@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import motorControl
 from time import sleep
-from msvcrt import getch
+from getch import getch
 
 GPIO.setmode(GPIO.BOARD)
 m1 = Motor([18,22,24,26])
